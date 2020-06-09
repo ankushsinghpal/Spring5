@@ -20,8 +20,8 @@ public class Publisher {
 
     //one publisher can have many books
     @OneToMany
-    @JoinColumn(name="publisher_id")
-    private Set<Book> books=new HashSet<>();
+    @JoinColumn(name = "publisher_id")
+    private Set<Book> books = new HashSet<>();
 
     public Publisher() {
 

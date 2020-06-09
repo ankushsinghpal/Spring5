@@ -1,14 +1,13 @@
-package guru.springframework.Spring5webApp;
+package guru.framework.sfg.petclinic.guru;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Spring5webAppApplication {
+public class GuruApplication {
 
     public static void main(String[] args) {
-
-        SpringApplication.run(Spring5webAppApplication.class, args);
+        SpringApplication.run(GuruApplication.class, args);
     }
 
 }

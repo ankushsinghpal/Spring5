@@ -1,5 +1,6 @@
 package guru.springframework.Spring5webApp.domain;
 //these JPA Entities need to be persisted by Hibernate to the Database
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -32,9 +33,10 @@ public class Book {
             inverseJoinColumns = @JoinColumn(name = "author_id"))
     private Set<Author> authors = new HashSet<>();
 
-    public Book(){
+    public Book() {
 
     }
+
     public Book(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;

@@ -1,10 +1,10 @@
-package guru.springframework.Spring5webApp;
+package guru.framework.sfg.petclinic.guru;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Spring5webAppApplicationTests {
+class GuruApplicationTests {
 
     @Test
     void contextLoads() {

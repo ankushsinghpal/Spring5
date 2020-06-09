@@ -12,13 +12,13 @@ public class Author {
     //Authors can have written many books and Books can have different Authors so there will be many to many relationship
     //There will be many to many relationship between Authors and Books
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String firstName;
     private String lastName;
 
     @ManyToMany(mappedBy = "authors")
-    private Set<Book> books=new HashSet<>();
+    private Set<Book> books = new HashSet<>();
 
     public Author() {
     }
